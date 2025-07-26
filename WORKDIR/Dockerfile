@@ -3,4 +3,4 @@ RUN mkdir /tmp/work-dir-demo
 RUN cd /tmp/work-dir-demo
 RUN pwd
 RUN echo "hello from work dir" > hello.txt
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["sleep","10000"]  
